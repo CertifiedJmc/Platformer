@@ -13,8 +13,9 @@ pygame.display.set_caption('platformer')
 tile_size= 200
 
 #load images
-sun_img = pygame.image.load(r'sky.png')
 bg_img = pygame.image.load(r'sun.png')
+sun_img = pygame.image.load(r'sky.png')
+
 
 
 class world():
